@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist-files
+          name: dist-files/s3-app
           path: dist
   deploy:
     needs: build
