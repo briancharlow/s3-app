@@ -64,5 +64,5 @@ jobs:
           bucketName: angularchvr
           distFiles: ./dist/s3-app
 
-      - name: utput link
+      - name: Output link
         run: echo "${{steps.deploy.outputs.URL}}"
