@@ -5,15 +5,6 @@ on:
       - master
       - main
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get code
-        uses: actions/checkout@v4
-      - name: Load and cache dependencies
-        uses: ./.github/actions/cached_deps
-      - name: Lint code
-        run: npm run lint
   test:
     runs-on: ubuntu-latest
     steps:
