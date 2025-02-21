@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - main
+      - restore-point2
 jobs:
   test:
     runs-on: ubuntu-latest
